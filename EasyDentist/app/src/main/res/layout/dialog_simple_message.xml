@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="@drawable/rounded_cyan_dark_10"
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_message"
+            android:gravity="center"
+            android:text="message"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.Material3.TitleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ok"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_cyan_10"
+            android:textColor="@color/white"
+            android:paddingHorizontal="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"/>
+    </LinearLayout>
+
+
+</layout>

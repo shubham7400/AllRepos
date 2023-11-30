@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1078810116646",
+    "project_id": "annotator-9e445",
+    "storage_bucket": "annotator-9e445.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078810116646:android:80f27baf033f3fb53a5ce7",
+        "android_client_info": {
+          "package_name": "com.blueduck.annotator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078810116646-svo8bonfntuce1p31rhvfeuu7lnqgtau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blueduck.annotator",
+            "certificate_hash": "07b167ad3a890553b0a8f6aec7440b3c22024fd4"
+          }
+        },
+        {
+          "client_id": "1078810116646-c3c6q4nuuhc0bretk0fdjr7bv7f5heh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFRIudytEqkttcrwl9sOSSYD7OQnOsL2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078810116646-bnagioq8oin6t2ra0qfnj95neu9118of.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1078810116646-o5d39iga2kqnjrv5oe9prv1uh6t98rgq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.kr.blueduck.annotator"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

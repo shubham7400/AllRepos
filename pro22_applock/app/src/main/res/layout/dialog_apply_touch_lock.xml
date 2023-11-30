@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="@drawable/background_blue_rounded_10"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginVertical="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fingerprint"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/inorder_to_lock_touch_the_fingerprint_sensor"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginVertical="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_cancel"
+                android:textColor="@color/white"
+                android:background="@drawable/strock_white_rounded_10"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"/>
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="40dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_okay"
+                android:textColor="@color/black"
+                android:background="@drawable/background_green_rounded_10"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/okay"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

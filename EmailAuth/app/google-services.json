@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1052505772015",
+    "project_id": "email-auth-203c9",
+    "storage_bucket": "email-auth-203c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052505772015:android:8a18b91e251c08d8b4701a",
+        "android_client_info": {
+          "package_name": "com.blueduck.emailauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052505772015-oo2l6rgk4i24f1bictoo1ptutbmi45md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blueduck.emailauth",
+            "certificate_hash": "5d988de8199ad05307e255e65b1e72eb8bd5b0c3"
+          }
+        },
+        {
+          "client_id": "1052505772015-1hjbh7m46crel59i9pbtp9eqhhg6me0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1tSrR8n0ebe612jLkAqvXTaj3CpCwAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052505772015-1hjbh7m46crel59i9pbtp9eqhhg6me0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

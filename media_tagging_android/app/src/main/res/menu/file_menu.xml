@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_add_item"
+        android:title="Add Image" />
+    <item android:id="@+id/option_add_video"
+        android:title="Add Video"/>
+    <item android:id="@+id/option_add_tag"
+        android:title="Add Tag" />
+    <item android:id="@+id/option_sort"
+        android:title="Sort" />
+    <item android:id="@+id/option_rename_project"
+        android:title="Rename Project" />
+    <item android:id="@+id/option_delete_project"
+        android:title="Delete Project" />
+</menu>

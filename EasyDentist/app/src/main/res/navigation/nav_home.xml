@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/homeFragment">
+
+     <fragment
+        android:id="@+id/viewImageFragment"
+        android:name="com.blueduck.easydentist.ui.home.ViewImageFragment"
+        android:label="fragment_view_image"
+        tools:layout="@layout/fragment_view_image" >
+        <action
+            android:id="@+id/action_viewImageFragment_to_profileFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+     <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.blueduck.easydentist.ui.home.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.blueduck.easydentist.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:destination="@id/profileFragment" />
+         <action
+            android:id="@+id/action_homeFragment_to_viewDoctorOrOtherPostFragment"
+             app:enterAnim="@anim/slide_in_right"
+             app:exitAnim="@anim/slide_out_left"
+             app:popEnterAnim="@anim/slide_in_left"
+             app:popExitAnim="@anim/slide_out_right"
+            app:destination="@id/viewDoctorOrOtherPostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewDoctorOrOtherPostFragment"
+        android:name="com.blueduck.easydentist.ui.home.ViewDoctorOrOtherPostFragment"
+        android:label="fragment_view_doctor_or_other_post"
+        tools:layout="@layout/fragment_view_doctor_or_other_post" >
+        <action
+            android:id="@+id/action_viewDoctorOrOtherPostFragment_to_viewImageFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:destination="@id/viewImageFragment" />
+    </fragment>
+</navigation>

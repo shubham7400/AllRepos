@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="ad_app_id" translatable="false">ca-app-pub-5888109041035177~3883153420</string>
+
+    <string name="ad_unit_id_1" translatable="false">ca-app-pub-5888109041035177/9231736922</string>
+    <string name="ad_unit_id_2" translatable="false">ca-app-pub-5888109041035177/5154311994</string>
+    <string name="ad_unit_id_3" translatable="false">ca-app-pub-5888109041035177/2739863655</string>
+    <string name="ad_unit_id_4" translatable="false">ca-app-pub-5888109041035177/2520371809</string>
+
+   <!-- // for test
+    <string name="ad_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="ad_unit_id_1" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id_2" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id_3" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id_4" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+-->
+
+    <string name="app_name">LockNhide</string>
+    <string name="get_started">Get Started</string>
+    <string name="draw_your_pattern_to_unlock">Draw your pattern to unlock</string>
+    <string name="incorrect_pattern">Incorrect pattern</string>
+    <string name="draw_your_pattern">Draw your pattern</string>
+    <string name="connect_at_least_4_dots">connect at least 4 dots</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+    <string name="inorder_to_lock_touch_the_fingerprint_sensor">Inorder to lock touch the fingerprint sensor</string>
+    <string name="cancel">Cancel</string>
+    <string name="okay">Okay</string>
+    <string name="calculator">Calculator</string>
+    <string name="clock">Clock</string>
+    <string name="camera">Camera</string>
+    <string name="set_your_pin_as_a_backup">Set your PIN code as a backup</string>
+    <string name="enter_4_digit_pin">Enter 4 digit PIN</string>
+    <string name="confirm_your_pattern">Confirm your pattern</string>
+    <string name="confirm_your_pin">Confirm your PIN</string>
+    <string name="unlock_with_biometric">Unlock with biometric</string>
+    <string name="enter_pin_to_unlock">Enter PIN to unlock</string>
+    <string name="fake_icon">Fake Icon</string>
+    <string name="protect_the_children_and_trespassers_by_deleting_applock_prevent_the_app_from_opening">Protect the children and trespassers by deleting Applock. Prevent the app from opening</string>
+    <string name="press_your_finger">Press your finger</string>
+    <string name="upgrade_applock">Upgrade AppLock</string>
+    <string name="ads_are_now_bye_bye">Ads are now bye-bye</string>
+    <string name="want_to_use_applock_more_easily_go_i_m_upgrading_right_now_and_i_m_not_with_ads_anymore">Want to use Applock more easily Go? I’m upgrading right now and I’m not with ads anymore.</string>
+    <string name="say_hello">Say hello.</string>
+    <string name="purchase">Purchase</string>
+    <string name="_8_900_1_year">8,900/1 year</string>
+    <string name="yearly_billing">Yearly billing</string>
+    <string name="_3_700_3_months">3,700/3 months</string>
+    <string name="quarterly_billing">Quarterly billing</string>
+    <string name="_2_500_1_month">2,500/1 month</string>
+    <string name="monthly_billing">Monthly billing</string>
+    <string name="disguise_applock_as_a_calculator">Disguise Applock as a Calculator</string>
+    <string name="app_language">App language</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+    <string name="korean">Korean</string>
+    <string name="russian">Russian</string>
+    <string name="spanish">Spanish</string>
+    <string name="change_to_pin">Change To PIN</string>
+    <string name="settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="fingerprint_lock">Fingerprint Lock</string>
+    <string name="a_photo_of_the_person_who_entered_the_wrong_pattern_or_password">A photo of the person who entered the wrong pattern or password</string>
+    <string name="general">General</string>
+    <string name="notification">Notification</string>
+    <string name="terms">Terms</string>
+    <string name="allowed_opportunities">Allowed Opportunities</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="upgrade">Upgrade</string>
+
+
+</resources>

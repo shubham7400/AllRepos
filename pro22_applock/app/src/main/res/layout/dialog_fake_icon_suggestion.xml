@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="@drawable/background_blue_rounded_10"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.Material3.TitleLarge"
+            android:text="@string/disguise_applock_as_a_calculator"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/protect_the_children_and_trespassers_by_deleting_applock_prevent_the_app_from_opening"/>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_weight="0.33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_app_icon"/>
+            <ImageView
+                android:layout_weight="0.33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_big_green"/>
+            <ImageView
+                android:layout_weight="0.33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_app_icon_fake"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_okay"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:background="@drawable/background_green_rounded_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/okay"/>
+
+    </LinearLayout>
+
+
+</layout>

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "894763518515",
+    "project_id": "dajumgum",
+    "storage_bucket": "dajumgum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894763518515:android:b09e116affd77c0088f146",
+        "android_client_info": {
+          "package_name": "com.blueduck.dajumgum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894763518515-q4hl4iej026tq8m07esroqdmjefg8tq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blueduck.dajumgum",
+            "certificate_hash": "2d7c175806fdc8efcc268d4eef5e2273f445afb3"
+          }
+        },
+        {
+          "client_id": "894763518515-cmmt7pl2gtm027dhs31oiq82cgeac4a7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiOyWYUAxfe12xh2Qhjd02cjqzZeA_5s8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894763518515-cmmt7pl2gtm027dhs31oiq82cgeac4a7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "894763518515-0ur2plt4l9ldgle94kjb8ai70fa1epl4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.co.blueduck.dajumgum"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

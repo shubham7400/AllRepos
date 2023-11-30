@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_file"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_image_placeholder"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_tag"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_tag"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:maxWidth="150dp"
+                android:maxLines="3"
+                android:text="#tag"/>
+
+            <TextView
+                android:id="@+id/tv_file_count"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/circle_blue"
+                android:textColor="@color/md_theme_light_onPrimary"
+                style="@style/TextAppearance.Material3.TitleMedium"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_play_btn"
+            android:visibility="gone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_play_circle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

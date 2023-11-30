@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_setting"
+    app:startDestination="@id/settingHomeFragment">
+
+    <fragment
+        android:id="@+id/settingHomeFragment"
+        android:name="com.lock.blueduck.applock.SettingHomeFragment"
+        android:label="fragment_setting_home"
+        tools:layout="@layout/fragment_setting_home" >
+        <action
+            android:id="@+id/action_settingHomeFragment_to_termsServiceFragment"
+            app:destination="@id/termsServiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/termsServiceFragment"
+        android:name="com.lock.blueduck.applock.TermsServiceFragment"
+        android:label="fragment_terms_service"
+        tools:layout="@layout/fragment_terms_service" />
+</navigation>

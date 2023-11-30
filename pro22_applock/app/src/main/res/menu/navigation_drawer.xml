@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item
+        android:id="@+id/item_fake_icon"
+        app:showAsAction="ifRoom"
+        android:checkable="true"
+        android:icon="@drawable/ic_calculator"
+        android:title="@string/fake_icon" />
+    <item
+        android:id="@+id/item_rate_us"
+        app:showAsAction="ifRoom"
+        android:checkable="true"
+        android:icon="@drawable/ic_thumb"
+        android:title="@string/rate_us" />
+    <item
+        android:id="@+id/item_upgrade"
+        app:showAsAction="ifRoom"
+        android:checkable="true"
+        android:icon="@drawable/ic_upgrade"
+        android:title="@string/upgrade" />
+</menu>

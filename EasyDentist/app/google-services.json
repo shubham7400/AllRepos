@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "335793473098",
+    "project_id": "ldentist",
+    "storage_bucket": "ldentist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335793473098:android:b201e09a2a69228d0d88b3",
+        "android_client_info": {
+          "package_name": "com.blueduck.easydentist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335793473098-bh5q9f5ic6g2mg12k20kvobv6m4hv3f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blueduck.easydentist",
+            "certificate_hash": "5d988de8199ad05307e255e65b1e72eb8bd5b0c3"
+          }
+        },
+        {
+          "client_id": "335793473098-1h7ce6ra5jvvmgbhlufcb6792m29tbah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsOfgNM8K9cSrD90XxkJX_mMtryaqXPEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335793473098-1h7ce6ra5jvvmgbhlufcb6792m29tbah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

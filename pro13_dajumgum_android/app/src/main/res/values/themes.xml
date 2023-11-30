@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Dajumgum" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/purple_blue</item>
+
+        <!-- Set the navigation bar color -->
+        <item name="android:navigationBarColor">@color/purple_blue</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+    </style>
+</resources>
