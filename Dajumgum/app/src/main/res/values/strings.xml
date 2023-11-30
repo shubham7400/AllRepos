@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dajumgum</string>
+
+    <string name="label_get_started">Get started</string>
+    <string name="label_title_onboarding1">Search for recipes</string>
+    <string name="label_subtitle_onboarding1">Browse and fin any recipe you are looking for. Also you can search by the ingredient you like.</string>
+    <string name="label_title_onboarding2">save your liked recipes</string>
+    <string name="label_subtitle_onboarding2">Save all your favourite recipes and get it later locally.</string>
+    <string name="label_title_onboarding3">Add your week meal plan</string>
+    <string name="label_subtitle_onboarding3">Plan for the whole week, add the ingredients, browse recipes and add it easily and fast.</string>
+    <string name="label_skip">Skip</string>
+    <string name="label_next">Next</string>
+    <string name="label_lets_go">Lets go</string>
+
+
+    <string name="discover_title">Discover</string>
+    <string name="search_title">Search</string>
+    <string name="bookmark_title">BookMark</string>
+    <string name="settings_title">Settings</string>
+    <string name="meal_plan">Meal Plan</string>
+ </resources>
